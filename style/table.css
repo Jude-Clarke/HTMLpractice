@@ -1,9 +1,22 @@
+body {
+	background-color: #edf4f2;
+	/*theme colors "https://colorhunt.co/palette/182197"*/
+	/*	Red: #d32626;
+		Green: #79d70f;
+		Orange: #f5a31a;
+		Gray: #edf4f2;
+	*/
+}
+img {
+	border: 2px groove #79d70f;
+	border-radius: 60px
+}
 a {
 	text-decoration: none;
 	color: black;
 }
 a:hover {
-	color: red;
+	color: #f5a31a;
 }
 th a {
 	padding: 5px;
@@ -12,16 +25,20 @@ th a {
 	border-radius: 90px;
 }
 th a:hover {
-	background-color: green;
+	background-color: #79d70f;
 	color: black;
 }
 hr {
 	margin: 20px 0px 40px 0px;
+	border-style: solid;
+	height: 1px;
+	background-color: #d32626;
+
 }
 hr:last-of-type {
 	margin-bottom: 80px;
 }
 .tbl {
 	text-align: center;
-	border: 2px solid black;
+	border: 2px groove #79d70f;
 }
